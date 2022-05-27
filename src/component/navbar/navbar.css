@@ -1,0 +1,37 @@
+.navbar {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem 3rem;
+    max-width: var(--max-width);
+    margin: auto;
+}
+
+.navbar_menu {
+    display: flex;
+    gap: 30px;
+}
+.navbar_menu a{
+    color: var(--grey);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.search_icon {
+    height: 26px;
+}
+.navbar_logo{
+    height: 60px;
+}
+.navbar_right{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}

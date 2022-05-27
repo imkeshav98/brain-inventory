@@ -1,0 +1,38 @@
+.quote {
+    background-image: url("../../assets/banner-white.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    color: var(--black);
+    padding: 5rem 0rem;
+}
+.quote__container {
+    max-width: 740px;
+    margin: auto;
+    position: relative;
+}
+.quote__container h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+.quote__container p {
+    max-width: 300px;
+    position: absolute;
+    text-align: left;
+    right: 50px;
+    margin: 2rem;
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 800px) {
+    .quote__container p {
+            max-width: auto;
+            position: absolute;
+            text-align: center;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: lighter;
+        }
+}

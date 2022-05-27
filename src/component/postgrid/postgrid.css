@@ -1,0 +1,177 @@
+
+
+.postgrid__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+}
+
+.postgrid_one{
+    aspect-ratio: 1 / 1;
+    background-image: url("../../assets/story6.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.postgrid_one h2:nth-child(1){
+    color: var(--white);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    font-size: 2rem;
+    position: absolute;
+    bottom: 8rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postgrid_one h2:nth-child(2) {
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    color: var(--yellow);
+    font-family: var(--font-rocksalt);
+    position: absolute;
+    bottom: 5.8rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postgrid_one button{
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postgrid_two {
+    aspect-ratio: 1 / 1;
+    background-image: url("../../assets/story_img4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -100px;
+    position: relative;
+}
+.postgrid_two h2:nth-child(1){
+    color: var(--white);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.406);
+    font-size: 2.3rem;
+    position: absolute;
+    max-width: 2rem;
+    line-height: 1em;
+    font-style: italic;
+    left: 2rem;
+    bottom: 8rem;
+}
+.postgrid_two button {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+}
+.postgrid_three {
+    aspect-ratio: 1 / 1;
+    background-image: url("../../assets/story5.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.postgrid_three h2{
+    color: var(--white);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.406);
+    font-size: 2rem;
+    position: absolute;
+    font-style: italic;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 8rem;
+}
+.postgrid_three h3 {
+    color: var(--white);
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.406);
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 6rem;
+}
+.postgrid_three button {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.postgrid_four {
+    aspect-ratio: 1 / 1;
+    background-image: url("../../assets/story9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.postgrid_four h2:nth-child(2) {
+    color: var(--yellow);
+    font-family: var(--font-rocksalt);
+    font-size: 2.5rem;
+    position: absolute;
+    left: 3.6rem;
+    top: 10.5rem;
+}
+.postgrid_four h2:nth-child(1) {
+    color: var(--black);
+    font-size: 2.3rem;
+    position: absolute;
+    max-width: 10rem;
+    line-height: 1em;
+    left: 3rem;
+    top: 8rem;
+}
+.postgrid_four button {
+    position: absolute;
+    bottom: 3rem;
+    left: 3.5rem;
+}
+
+.yellowBtn{
+    background-color: var(--yellow);
+    color: var(--black);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 2rem;
+    max-width: 8rem;
+}
+
+@media only screen and (max-width: 1400px){
+    .postgrid__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .postgrid_two h2:nth-child(1) {
+        font-size: 2.5rem;
+        position: absolute;
+        max-width: 2rem;
+        line-height: 1em;
+        font-style: italic;
+        left: 3rem;
+        bottom: 9rem;
+    }
+    
+    .postgrid_two button {
+        position: absolute;
+        bottom: 3rem;
+        left: 3rem;
+    }
+}
+@media only screen and (max-width: 680px){
+    .postgrid__container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+}
