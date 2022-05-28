@@ -118,9 +118,21 @@ input:focus {
 
 @media only screen and (max-width: 900px){
     .contact__container {
-            flex-direction: column;
-            margin: 2rem auto;
-            padding: 2rem;
-            gap: 4rem;
-        }
+        flex-direction: column;
+        margin: 2rem auto;
+        padding: 2rem;
+        gap: 4rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .contact_container_form_input {
+        flex-direction: column;
+    }
+    .contact__container_left_form {
+        gap: 1.5rem;
+    }
+    .contact_container_form_message_right textarea {
+        height: 8rem;
+        border: 2px solid #ccc;
+    }
 }
