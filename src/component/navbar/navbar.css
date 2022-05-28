@@ -69,12 +69,12 @@
     position: absolute;
     top: 0;
     z-index: 1000;
-    width: 10rem;
+    width: 15rem;
     height: 100vh;
     background-color: var(--black);
     right: 0;
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-top: 2rem;
 }
 

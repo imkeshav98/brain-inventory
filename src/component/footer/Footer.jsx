@@ -6,9 +6,9 @@ export const Footer = () => {
       <div className="footer__container">
         <p>Ady Production. LLC</p>
         <div className="spacer"></div>
-        <p>Ady Production. LLC</p>
+        <p>Copyright Reserved</p>
         <div className="spacer"></div>
-        <p>Ady Production. LLC</p>
+        <p>Made With React ❤️</p>
       </div>
     </section>
   );
