@@ -4,7 +4,7 @@
     color: var(--white);
     padding: 9rem 5rem;
     background-repeat: no-repeat;
-        background-position: right;
+    background-position: right -2rem;
 }
 .hero__container {
     display: flex;

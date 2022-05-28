@@ -5,6 +5,8 @@ import "./navbar.css";
 import { menuItems } from "./menuItems";
 
 export const Navbar = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+
   return (
     <section className="navbar">
       <div className="navbar__container">
@@ -17,10 +19,30 @@ export const Navbar = () => {
               </a>
             ))}
           </div>
-          {/* <div>
-            <p>ENGLISH</p>
-          </div> */}
+          <div className="menu_icon" onClick={() => setIsOpen(true)}>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <img src={search} alt="search" className="search_icon" />
+        </div>
+      </div>
+      <div
+        className={
+          isOpen === false ? "mobile_menu display_none" : "mobile_menu"
+        }
+        onClick={() => setIsOpen(false)}
+      >
+        <div className="menu_close_icon">
+          <div></div>
+          <div></div>
+        </div>
+        <div className="mobile_menu_items">
+          {menuItems.map((item, index) => (
+            <a href={item} key={index}>
+              {item}
+            </a>
+          ))}
         </div>
       </div>
     </section>
