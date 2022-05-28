@@ -1,4 +1,6 @@
 import "./App.css";
+import { Contact } from "./component/contact/Contact";
+import { Footer } from "./component/footer/Footer";
 import { Hero } from "./component/hero/Hero";
 import { Navbar } from "./component/navbar/Navbar";
 import { NewsLetter } from "./component/newsletter/NewsLetter";
@@ -13,6 +15,8 @@ function App() {
       <Quote />
       <PostGrid />
       <NewsLetter />
+      <Contact />
+      <Footer />
     </div>
   );
 }

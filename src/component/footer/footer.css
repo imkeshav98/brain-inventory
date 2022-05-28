@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--black);
+    padding: 2rem;
+}
+.footer__container{
+    max-width: 1200px;
+    margin: auto;
+    color: var(--white);
+    display: flex;
+    gap: 3rem;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    letter-spacing: 0.05rem;
+}
+
+.spacer{
+    border-left: 1px solid white;
+}

@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
+    max-width: 2000px;
 }
 
 .postgrid_one{
